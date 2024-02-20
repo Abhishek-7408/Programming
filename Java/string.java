@@ -9,5 +9,7 @@ System.out.println(str.length());
 System.out.println(str.substring(1, 6));
 System.out.println(str.substring(3));
 System.out.println(str.substring(0));
+System.out.println(str.substring(1,1));//0
+System.out.println(str.contains("cde"));
     }
 }
