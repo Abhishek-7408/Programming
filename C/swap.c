@@ -1,16 +1,24 @@
 #include <stdio.h>
-void swap(int *,int *);
-int main()
-{
-    int a,b;
-    scanf("%d %d",&a,&b);
-    swap(&a,&b);
-    printf("%d %d",a,b);
+int main(){
+    // int a,b,t;
+    // scanf("%d %d",&a,&b);
+    // t=a;
+    // a=b;
+    // b=t;
+    // printf("%d %d",a,b);
 
-}
-void swap(int *x,int *y)
-{
-    int t = *x;
-    *x = *y;
-    *y = t;
+// swapping without third variable.
+int a,b;
+scanf("%d %d",&a,&b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf("%d %d",a,b);
+
+
+
+
+
+
+
 }
