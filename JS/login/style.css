@@ -1,0 +1,18 @@
+#header{
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
+
+}
+#nav{
+    
+}
+li{
+    color: brown;
+
+}
+button{
+    border: 2px solid green;
+    
+    color: aqua;
+}

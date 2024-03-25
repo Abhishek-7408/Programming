@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Redclation is not allowed using let keyword!</h1>
+    <h1>Redeclaration is allowed using var!</h1>
+
+<script>
+    //using var
+    var x=20;
+    {
+        var x=10;
+        document.write("Inside the block "+x+"<br>");
+    }
+
+    document.write("outside the block "+x+"<br>");
+
+
+
+</script>
+
+<h1>using let</h1>
+
+
+
+<script>
+
+    //using let
+let y=20;
+    {
+        let y=10;
+        document.write("Inside the block "+y+"<br>");
+    }
+
+    document.write("outside the block "+y);
+
+</script>
+
+
+ 
+
+
+</body>
+</html>
